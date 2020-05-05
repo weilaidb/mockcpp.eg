@@ -38,7 +38,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/software/mockcpp/mockcpp/build/src/cmake_install.cmake")
+  include("E:/software/mockcpp.eg/mockcpp/build/src/cmake_install.cmake")
 
 endif()
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/software/mockcpp/mockcpp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/software/mockcpp.eg/mockcpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

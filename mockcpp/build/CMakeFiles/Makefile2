@@ -66,7 +66,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = E:\software\mockcpp\mockcpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\software\mockcpp\mockcpp\build
+CMAKE_BINARY_DIR = E:\software\mockcpp.eg\mockcpp\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -114,14 +114,14 @@ src/CMakeFiles/mockcpp.dir/all: src/CMakeFiles/vtbl_related_headers.dir/all
 src/CMakeFiles/mockcpp.dir/all: src/CMakeFiles/arg_related_headers.dir/all
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\mockcpp.dir\build.make src/CMakeFiles/mockcpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\mockcpp.dir\build.make src/CMakeFiles/mockcpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\software\mockcpp\mockcpp\build\CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84 "Built target mockcpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\software\mockcpp.eg\mockcpp\build\CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84 "Built target mockcpp"
 .PHONY : src/CMakeFiles/mockcpp.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/mockcpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp\mockcpp\build\CMakeFiles 89
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp.eg\mockcpp\build\CMakeFiles 89
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/mockcpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp\mockcpp\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp.eg\mockcpp\build\CMakeFiles 0
 .PHONY : src/CMakeFiles/mockcpp.dir/rule
 
 # Convenience name for target.
@@ -141,14 +141,14 @@ src/CMakeFiles/mockcpp.dir/clean:
 src/CMakeFiles/vtbl_related_headers.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\vtbl_related_headers.dir\build.make src/CMakeFiles/vtbl_related_headers.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\vtbl_related_headers.dir\build.make src/CMakeFiles/vtbl_related_headers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\software\mockcpp\mockcpp\build\CMakeFiles --progress-num=85,86,87,88,89 "Built target vtbl_related_headers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\software\mockcpp.eg\mockcpp\build\CMakeFiles --progress-num=85,86,87,88,89 "Built target vtbl_related_headers"
 .PHONY : src/CMakeFiles/vtbl_related_headers.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/vtbl_related_headers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp\mockcpp\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp.eg\mockcpp\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/vtbl_related_headers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp\mockcpp\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp.eg\mockcpp\build\CMakeFiles 0
 .PHONY : src/CMakeFiles/vtbl_related_headers.dir/rule
 
 # Convenience name for target.
@@ -168,14 +168,14 @@ src/CMakeFiles/vtbl_related_headers.dir/clean:
 src/CMakeFiles/arg_related_headers.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\arg_related_headers.dir\build.make src/CMakeFiles/arg_related_headers.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\arg_related_headers.dir\build.make src/CMakeFiles/arg_related_headers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\software\mockcpp\mockcpp\build\CMakeFiles --progress-num=1,2,3 "Built target arg_related_headers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\software\mockcpp.eg\mockcpp\build\CMakeFiles --progress-num=1,2,3 "Built target arg_related_headers"
 .PHONY : src/CMakeFiles/arg_related_headers.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/arg_related_headers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp\mockcpp\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp.eg\mockcpp\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/arg_related_headers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp\mockcpp\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\software\mockcpp.eg\mockcpp\build\CMakeFiles 0
 .PHONY : src/CMakeFiles/arg_related_headers.dir/rule
 
 # Convenience name for target.
