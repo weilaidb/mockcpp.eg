@@ -5545,6 +5545,8 @@ src/CMakeFiles/mockcpp.dir/TypelessStubAdapter.cpp.obj: ../include/mockcpp/types
 src/CMakeFiles/mockcpp.dir/TypelessStubAdapter.cpp.obj: ../include/mockcpp/types/ValueHolder.h
 src/CMakeFiles/mockcpp.dir/TypelessStubAdapter.cpp.obj: ../src/TypelessStubAdapter.cpp
 
+src/CMakeFiles/mockcpp.dir/UnixCodeModifier.cpp.obj: ../include/mockcpp/CodeModifier.h
+src/CMakeFiles/mockcpp.dir/UnixCodeModifier.cpp.obj: ../include/mockcpp/mockcpp.h
 src/CMakeFiles/mockcpp.dir/UnixCodeModifier.cpp.obj: ../src/UnixCodeModifier.cpp
 
 src/CMakeFiles/mockcpp.dir/VirtualTable.cpp.obj: ../include/mockcpp/ArgumentsList.h

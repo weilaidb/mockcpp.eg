@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
+  "../../include/mockcpp/DefaultMethodAddrGetterDef.h"
+  "../../include/mockcpp/DelegatedMethodGetByVptrDef.h"
+  "../../include/mockcpp/DelegatedMethodGetDef.h"
+  "../../include/mockcpp/DestructorAddrGetterDef.h"
+  "../../include/mockcpp/MethodIndiceCheckerDef.h"
   "CMakeFiles/vtbl_related_headers"
-  "E:/software/mockcpp/mockcpp/include/mockcpp/DefaultMethodAddrGetterDef.h"
-  "E:/software/mockcpp/mockcpp/include/mockcpp/DelegatedMethodGetByVptrDef.h"
-  "E:/software/mockcpp/mockcpp/include/mockcpp/DelegatedMethodGetDef.h"
-  "E:/software/mockcpp/mockcpp/include/mockcpp/DestructorAddrGetterDef.h"
-  "E:/software/mockcpp/mockcpp/include/mockcpp/MethodIndiceCheckerDef.h"
 )
 
 # Per-language clean rules from dependency scanning.

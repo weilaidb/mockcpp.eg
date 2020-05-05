@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DMOCKCPP_ALLOW_MULTI_INHERITANCE=1 -DMOCKCPP_MAX_INHERITANCE=2 -DMOCKCPP_MAX_PARAMETERS=12 -DMOCKCPP_MAX_VTBL_SIZE=20 -DMOCKCPP_NO_NAMESPACE=0 -DPACKAGE=\"mockcpp\" -DPACKAGE_BUGREPORT=\"dev.mockcpp@gmail.com\" -DPACKAGE_NAME=\"mockcpp\" -DPACKAGE_STRING=\"mockcpp\" -DPACKAGE_URL=\"http://code.google.com/p/mockcpp\" -DVERSION=\"2.6\"
 
-CXX_INCLUDES = -IE:\software\mockcpp\mockcpp\3rdparty -IE:\software\mockcpp\mockcpp\include 
+CXX_INCLUDES = -IE:\software\mockcpp.eg\mockcpp\3rdparty -IE:\software\mockcpp.eg\mockcpp\include 
 

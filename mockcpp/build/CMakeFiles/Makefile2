@@ -63,7 +63,7 @@ RM = E:\software\cmake-3.17.2-win64-x64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\software\mockcpp\mockcpp
+CMAKE_SOURCE_DIR = E:\software\mockcpp.eg\mockcpp
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = E:\software\mockcpp.eg\mockcpp\build
