@@ -39,10 +39,10 @@ void test123()
 
 bool CodeModifier::modify(void *dest, const void *src, size_t size)
 {
-    // if(::mprotect(ALIGN_TO_PAGE_BOUNDARY(dest), PAGE_SIZE * 2, PROT_EXEC | PROT_WRITE | PROT_READ ) != 0)
-    // {  
-       // return false; 
-    // }
+    if(::mprotect(ALIGN_TO_PAGE_BOUNDARY(dest), PAGE_SIZE * 2, PROT_EXEC | PROT_WRITE | PROT_READ ) != 0)
+    {  
+       return false; 
+    }
 
     ::memcpy(dest, src, size);
 
