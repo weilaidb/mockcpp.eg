@@ -44,7 +44,7 @@ bool CodeModifier::modify(void *dest, const void *src, size_t size)
        // return false; 
     // }
 
-    memcpy(dest, src, size);
+    ::memcpy(dest, src, size);
 
 
 // #if 0
