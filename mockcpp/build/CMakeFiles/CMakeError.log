@@ -1,0 +1,158 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/QtSDK/mingw/bin/mingw32-make.exe cmTC_64d9d/fast && C:/QtSDK/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_64d9d.dir\build.make CMakeFiles/cmTC_64d9d.dir/build
+mingw32-make.exe[1]: Entering directory `E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64d9d.dir/CMakeCCompilerABI.c.obj
+C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\gcc.exe   -v -o CMakeFiles\cmTC_64d9d.dir\CMakeCCompilerABI.c.obj   -c E:\software\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\gcc.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.8.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw482/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev3, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/include -I/c/mingw482/prerequisites/i686-zlib-static/include -I/c/mingw482/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/include -I/c/mingw482/prerequisites/i686-zlib-static/include -I/c/mingw482/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/lib -L/c/mingw482/prerequisites/i686-zlib-static/lib -L/c/mingw482/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 4.8.2 (i686-posix-dwarf-rev3, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_64d9d.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/cc1.exe -quiet -v -iprefix C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/ -D_REENTRANT E:\software\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_64d9d.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\ADMINI~1\AppData\Local\Temp\ccvKjDh8.s
+GNU C (i686-posix-dwarf-rev3, Built by MinGW-W64 project) version 4.8.2 (i686-w64-mingw32)
+	compiled by GNU C version 4.8.2, GMP version 5.1.3, MPFR version 3.1.2-p5, MPC version 1.0.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Qt/Qt5.3.0/Tools/mingw482_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.8.2/include"
+ignoring nonexistent directory "C:/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32D:/msys64/mingw32/lib/gcc/i686-w64-mingw32/4.8.2/../../../../include"
+ignoring duplicate directory "C:/Qt/Qt5.3.0/Tools/mingw482_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed"
+ignoring duplicate directory "C:/Qt/Qt5.3.0/Tools/mingw482_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include"
+ignoring nonexistent directory "C:/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include
+End of search list.
+GNU C (i686-posix-dwarf-rev3, Built by MinGW-W64 project) version 4.8.2 (i686-w64-mingw32)
+	compiled by GNU C version 4.8.2, GMP version 5.1.3, MPFR version 3.1.2-p5, MPC version 1.0.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e474c8b4072195698d3d9d49b445e9e0
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_64d9d.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_64d9d.dir\CMakeCCompilerABI.c.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccvKjDh8.s
+GNU assembler version 2.24 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/../lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_64d9d.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+Linking C executable cmTC_64d9d
+E:\software\cmake-3.17.2-win64-x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_64d9d.dir\link.txt --verbose=1
+C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\gcc.exe     -v CMakeFiles/cmTC_64d9d.dir/CMakeCCompilerABI.c.obj  -o cmTC_64d9d 
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.8.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw482/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev3, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/include -I/c/mingw482/prerequisites/i686-zlib-static/include -I/c/mingw482/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/include -I/c/mingw482/prerequisites/i686-zlib-static/include -I/c/mingw482/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/lib -L/c/mingw482/prerequisites/i686-zlib-static/lib -L/c/mingw482/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 4.8.2 (i686-posix-dwarf-rev3, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/../lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_64d9d.exe' '-mtune=generic' '-march=i686'
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/collect2.exe --sysroot=C:/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32 -m i386pe -Bdynamic -o cmTC_64d9d.exe C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/crtbegin.o -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2 -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/../lib -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../lib -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../.. CMakeFiles/cmTC_64d9d.dir/CMakeCCompilerABI.c.obj -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/crtend.o
+mingw32-make.exe[1]: Leaving directory `E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'E:/software/mockcpp/mockcpp/build/CMakeFiles/3.17.2/CMakeDetermineCompilerABI_C.bin'
+Unable to find the executable at any of:
+  E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp/cmTC_64d9d
+  E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp/Debug/cmTC_64d9d
+  E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp/Development/cmTC_64d9d
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/QtSDK/mingw/bin/mingw32-make.exe cmTC_49b90/fast && C:/QtSDK/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_49b90.dir\build.make CMakeFiles/cmTC_49b90.dir/build
+mingw32-make.exe[1]: Entering directory `E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49b90.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\g++.exe    -v -o CMakeFiles\cmTC_49b90.dir\CMakeCXXCompilerABI.cpp.obj -c E:\software\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\g++.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.8.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw482/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev3, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/include -I/c/mingw482/prerequisites/i686-zlib-static/include -I/c/mingw482/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/include -I/c/mingw482/prerequisites/i686-zlib-static/include -I/c/mingw482/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/lib -L/c/mingw482/prerequisites/i686-zlib-static/lib -L/c/mingw482/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 4.8.2 (i686-posix-dwarf-rev3, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_49b90.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/cc1plus.exe -quiet -v -iprefix C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/ -D_REENTRANT E:\software\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_49b90.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\ADMINI~1\AppData\Local\Temp\ccVh7GVo.s
+GNU C++ (i686-posix-dwarf-rev3, Built by MinGW-W64 project) version 4.8.2 (i686-w64-mingw32)
+	compiled by GNU C version 4.8.2, GMP version 5.1.3, MPFR version 3.1.2-p5, MPC version 1.0.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Qt/Qt5.3.0/Tools/mingw482_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.8.2/include"
+ignoring nonexistent directory "C:/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32D:/msys64/mingw32/lib/gcc/i686-w64-mingw32/4.8.2/../../../../include"
+ignoring duplicate directory "C:/Qt/Qt5.3.0/Tools/mingw482_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed"
+ignoring duplicate directory "C:/Qt/Qt5.3.0/Tools/mingw482_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include"
+ignoring nonexistent directory "C:/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward
+End of search list.
+GNU C++ (i686-posix-dwarf-rev3, Built by MinGW-W64 project) version 4.8.2 (i686-w64-mingw32)
+	compiled by GNU C version 4.8.2, GMP version 5.1.3, MPFR version 3.1.2-p5, MPC version 1.0.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 01faaf243765adeca27a03d6d5058b4e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_49b90.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_49b90.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccVh7GVo.s
+GNU assembler version 2.24 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/../lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_49b90.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+Linking CXX executable cmTC_49b90
+E:\software\cmake-3.17.2-win64-x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_49b90.dir\link.txt --verbose=1
+C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\g++.exe      -v CMakeFiles/cmTC_49b90.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_49b90 
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.8.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw482/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw482/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev3, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/include -I/c/mingw482/prerequisites/i686-zlib-static/include -I/c/mingw482/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/include -I/c/mingw482/prerequisites/i686-zlib-static/include -I/c/mingw482/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32/opt/lib -L/c/mingw482/prerequisites/i686-zlib-static/lib -L/c/mingw482/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 4.8.2 (i686-posix-dwarf-rev3, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/../lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/;C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49b90.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/collect2.exe --sysroot=C:/mingw482/i686-482-posix-dwarf-rt_v3-rev3/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_49b90.exe C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/crtbegin.o -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2 -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/../lib -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../lib -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib -LC:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../.. CMakeFiles/cmTC_49b90.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/crtend.o
+mingw32-make.exe[1]: Leaving directory `E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'E:/software/mockcpp/mockcpp/build/CMakeFiles/3.17.2/CMakeDetermineCompilerABI_CXX.bin'
+Unable to find the executable at any of:
+  E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp/cmTC_49b90
+  E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp/Debug/cmTC_49b90
+  E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp/Development/cmTC_49b90
+
+
+Detecting CXX [-std=c++1y] compiler features failed to compile with the following output:
+Change Dir: E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/QtSDK/mingw/bin/mingw32-make.exe cmTC_58018/fast && C:/QtSDK/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_58018.dir\build.make CMakeFiles/cmTC_58018.dir/build
+mingw32-make.exe[1]: Entering directory `E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58018.dir/feature_tests.cxx.obj
+C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\g++.exe    -std=c++1y -o CMakeFiles\cmTC_58018.dir\feature_tests.cxx.obj -c E:\software\mockcpp\mockcpp\build\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_58018
+E:\software\cmake-3.17.2-win64-x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_58018.dir\link.txt --verbose=1
+C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\g++.exe       CMakeFiles/cmTC_58018.dir/feature_tests.cxx.obj  -o cmTC_58018 
+mingw32-make.exe[1]: Leaving directory `E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'E:/software/mockcpp/mockcpp/build/CMakeFiles/feature_tests.bin'
+Unable to find the executable at any of:
+  E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp/cmTC_58018
+  E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp/Debug/cmTC_58018
+  E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp/Development/cmTC_58018
+
+

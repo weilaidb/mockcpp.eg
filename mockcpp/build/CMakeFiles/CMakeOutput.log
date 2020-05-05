@@ -1,0 +1,56 @@
+The target system is: mingw482_32 - 482_32 - 
+The host system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "E:/software/mockcpp/mockcpp/build/CMakeFiles/3.17.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Qt/Qt5.3.0/Tools/mingw482_32/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "E:/software/mockcpp/mockcpp/build/CMakeFiles/3.17.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/QtSDK/mingw/bin/mingw32-make.exe cmTC_71629/fast && C:/QtSDK/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_71629.dir\build.make CMakeFiles/cmTC_71629.dir/build
+mingw32-make.exe[1]: Entering directory `E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71629.dir/testCCompiler.c.obj
+C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\gcc.exe    -o CMakeFiles\cmTC_71629.dir\testCCompiler.c.obj   -c E:\software\mockcpp\mockcpp\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_71629
+E:\software\cmake-3.17.2-win64-x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_71629.dir\link.txt --verbose=1
+C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\gcc.exe      CMakeFiles/cmTC_71629.dir/testCCompiler.c.obj  -o cmTC_71629 
+mingw32-make.exe[1]: Leaving directory `E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/QtSDK/mingw/bin/mingw32-make.exe cmTC_58591/fast && C:/QtSDK/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_58591.dir\build.make CMakeFiles/cmTC_58591.dir/build
+mingw32-make.exe[1]: Entering directory `E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58591.dir/testCXXCompiler.cxx.obj
+C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\g++.exe     -o CMakeFiles\cmTC_58591.dir\testCXXCompiler.cxx.obj -c E:\software\mockcpp\mockcpp\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_58591
+E:\software\cmake-3.17.2-win64-x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_58591.dir\link.txt --verbose=1
+C:\Qt\Qt5.3.0\Tools\mingw482_32\bin\g++.exe       CMakeFiles/cmTC_58591.dir/testCXXCompiler.cxx.obj  -o cmTC_58591 
+mingw32-make.exe[1]: Leaving directory `E:/software/mockcpp/mockcpp/build/CMakeFiles/CMakeTmp'
+
+
+
