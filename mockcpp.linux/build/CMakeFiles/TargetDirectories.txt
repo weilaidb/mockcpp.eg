@@ -1,0 +1,15 @@
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/CMakeFiles/install/strip.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/CMakeFiles/install.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/CMakeFiles/install/local.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/CMakeFiles/list_install_components.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/CMakeFiles/edit_cache.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/CMakeFiles/rebuild_cache.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/src/CMakeFiles/install/local.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/src/CMakeFiles/install.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/src/CMakeFiles/vtbl_related_headers.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/src/CMakeFiles/list_install_components.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/src/CMakeFiles/install/strip.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/src/CMakeFiles/mockcpp.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/src/CMakeFiles/arg_related_headers.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/src/CMakeFiles/edit_cache.dir
+/home/duoduo/work/git/mockcpp.eg/mockcpp.linux/build/src/CMakeFiles/rebuild_cache.dir
