@@ -63,7 +63,7 @@ MKDIR = mkdir -p
 .PHONE:makefile all bind aaa TAGETDIR dirdep install clean
 
 bind:all aaa
-	@echo bind ok
+	@echo ~bind ok~
 
 all:$(TARGET)
 	@echo current path is $(shell basename $(COMPILE_DIR))

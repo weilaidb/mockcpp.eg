@@ -31,25 +31,49 @@ void function(int *val)
 }
 
 
+// TEST(mockcpp simple sample)
+// {
+    // MOCKER(function)
+    // .stubs()
+// }
+
+int add(int a,int b)
+{
+    return a + b;
+}
+
+// TEST(mockcpp add)
+// {
+    // MOCKER(add)
+        // .stubs()
+        // .with(eq(10), eq(2))
+        // .will(returnValue(30));   
+// }
+
+        
+        
 int main(int argc, char **argv)
 {
     int expect = 10;
 
     test();
-    printf("nihaoma\n");
+    printf("--start \n");
 
 
-//    MOCKER(function)
-//      .stubs()
-//      .with(outBoundP(&expect, sizeof(expect)));
+   MOCKER(function)
+     .stubs()
+     .with(outBoundP(&expect, sizeof(expect)));
 
     MOCKER(function)
             .defaults();
 
-//    MOCKER(function)
-//      .stubs()
-//      .with(outBoundP(&expect, sizeof(expect)));
 
+	// MOCKER(add)
+		// .stubs()
+		// .with(eq(10), eq(2))
+		// .will(returnValue(30));
+
+    printf("--end \n");
 
     return 0;
 }
